@@ -234,5 +234,21 @@ if (arr.length == 3){
 } if (arr.length > 3) {
     console.log('Более трёх элементов');
 }
-*/
 
+let num = 201;
+let str = String(num);
+if (str[str.length - 1] == 0) {
+    console.log('Равно 0');
+} else {
+    console.log('Не равно 0');
+}
+
+let num1 = 2112122143181;
+let num = String(num1);
+if (num[num.length - 1] == 0 || num[num.length - 1] == 2 || num[num.length - 1] == 4 || num[num.length - 1] == 6 || num[num.length - 1] == 8) {
+    console.log((num[num.length - 1]), 'четное');
+} else {
+    console.log((num[num.length - 1]), 'нечетное');
+}
+
+*/
