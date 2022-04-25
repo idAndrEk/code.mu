@@ -139,7 +139,6 @@ if (day >= 1 && day <= 10) {
 } else {
     console.log('Неверное значение');
 }
-*/
 
 let num = 98;
 if (num <= 10 || num >= 99) {
@@ -155,3 +154,85 @@ if (num <= 10 || num >= 99) {
         console.log ('Сумма цифр двузначна');
     }
 }
+
+let age = 17;
+let adult;
+if (age >= 18) {
+    adult = true;
+} else {
+    adult = false;
+}
+
+console.log(adult);
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+    adult = true;
+} else {
+    adult = false;
+}
+
+console.log(adult);
+
+let age = 17;
+let adult;
+
+if (age >= 18) {
+    adult = true;
+} else {
+    adult = false;
+}
+
+console.log(adult);
+
+let age = 37;
+let result;
+
+if (age >= 18) {
+    if (age <= 23) {
+        result = 'от 18 до 23';
+    } else {
+        result = 'больше 23';
+    }
+} else {
+    result = 'меньше 18';
+}
+
+console.log(result);
+
+let age = 19;
+let result;
+
+if (age >= 18) {
+    result;
+
+    if (age <= 23) {
+        result = 'от 18 до 23';
+    } else {
+        result = 'больше 23';
+    }
+} else {
+    result = 'меньше 18';
+}
+
+console.log(result);
+
+let min = 10;
+if (min >= 1 && min <= 20) {
+    console.log ('Первая треть часа');
+} if (min >=21 && min <= 40) {
+    console.log('Вторая треть часа');
+} if (min <= 41 && min >= 60) {
+    console.log('Третья треть часа');
+} 
+
+let arr = [1, 3, 7];
+if (arr.length == 3){
+    console.log(arr[0] + arr[1] + arr[2])
+} if (arr.length > 3) {
+    console.log('Более трёх элементов');
+}
+*/
+
