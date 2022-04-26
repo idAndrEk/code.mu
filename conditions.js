@@ -251,4 +251,69 @@ if (num[num.length - 1] == 0 || num[num.length - 1] == 2 || num[num.length - 1] 
     console.log((num[num.length - 1]), 'нечетное');
 }
 
+
+let month = 2;
+if (month === 1 || month === 2 || month === 11 || month === 12) {
+    console.log('Зима');
+} if (month === 3 || month === 4) {
+    console.log('Весна');
+} if (month >= 5 && month <= 8) {
+    console.log('Лето');
+} if (month === 9 || month === 10) {
+    console.log('Осень');
+} if (month <= 0 || month >= 13) {
+    console.log('Не верно');
+}
+
+let str = 'abcde';
+if (str[0] === 'a') {
+    console.log('Да');
+} else {
+    console.log('Нет');
+}
+
+let num = 12345;
+let str = String (num);
+if (str[0] >= 1 && str[0] <= 3) {
+    console.log('Да');
+} else {
+    console.log('Нет');
+}
+
+let num = 123;
+let str = String(num);
+let sum = Number(str[0]) + Number(str[1]) + Number(str[2]); 
+console.log(sum);
+
+
+let num = 123113;
+let str = String(num);
+if (Number(str[0]) + Number(str[1]) + Number(str[2]) === Number(str[3]) + Number(str[4]) + Number(str[5])) {
+    console.log('Да');
+} else {
+    console.log('Нет');
+}
+
+let num = 3;
+switch (num) {
+    case 1:
+        console.log('зима');
+        break;
+    case 2:
+        console.log('весна');
+        break;
+    case 3:
+        console.log('лето');
+        break;
+    case 4:
+        console.log('осень');
+        break;
+    default:
+        console.log('ошибка');
+}
 */
+
+let num = 23;
+let result = num >= 0 ? 1 : -1;
+console.log(result);
+
