@@ -311,9 +311,154 @@ switch (num) {
     default:
         console.log('ошибка');
 }
-*/
 
 let num = 23;
 let result = num >= 0 ? 1 : -1;
 console.log(result);
 
+let a = 2 * (3 - 1);
+let b = 6 - 2;
+result = a == b;
+console.log(result);
+console.log(a == b);
+
+let a = 5 * (7 - 4);
+let b = 1 + 2 + 7;
+console.log(a > b);
+
+let a = 2 ** 4;
+let b = 4 ** 2;
+console.log(a != b);
+
+let num1 = 1;
+let num2 = 2;
+
+if (num1 + num2 === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num1 = 1;
+let num2 = 2;
+
+if (num1 + num2 === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num1 = 1;
+let num2 = 2;
+
+if (num1 + num2 === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num1 = 1;
+let num2 = 2;
+
+if (Number(num1 + num2) === 3) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 123;
+let str = String(num);
+if (str[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 123;
+
+if (String(num)[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 123;
+
+if (String(num)[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 123;
+let first = String(num);
+
+if (first[0] == 1) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = '12';
+
+if (num.length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 12;
+let str = String(num);
+
+if (str.length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 12;
+
+if (String(num).length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 12;
+
+if (String(num).length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = 12;
+
+if (String(num).length === 2) {
+	console.log('+++');
+} else {
+	console.log('---');
+}
+
+let num = '123033'; // берем в 	кавычки, чтобы обращаться к цифрам 
+
+let sum1 = Number(num[0]) + Number(num[1]) + Number(num[2]);
+let sum2 = Number(num[3]) + Number(num[4]) + Number(num[5]);
+
+if (sum1 == sum2) {
+	console.log('суммы равны');
+} else {
+	console.log('суммы не равны');
+}
+*/
+
+let num = '123033'; // берем в 	кавычки, чтобы обращаться к цифрам 
+
+let sum1 = +num[0] + (+num[1]) + (+num[2]);
+let sum2 = +num[3] + (+num[4]) + (+num[5]);
+
+if (sum1 == sum2) {
+	console.log('суммы равны');
+} else {
+	console.log('суммы не равны');
+}
