@@ -149,3 +149,11 @@ console.log(result);
 
 */
 
+let arr = [10, 20, 30, 50, 235, 3000];
+let result = 0;
+for (i = 0; i < arr.length; i++){
+    if (String(arr[i]).startsWith('1') || String(arr[i]).startsWith('2')|| String(arr[i]).startsWith('5')) {
+        console.log(arr[i]);
+    }
+}
+
