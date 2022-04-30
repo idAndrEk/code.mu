@@ -121,8 +121,6 @@ for (let i = 0; i < arr.length; i++) {
     result *= arr[i];
 }
 console.log(result);
-*/
-
 
 let arr = [1, 2, 3, 4, 5];
 let result = 0;
@@ -132,4 +130,22 @@ for (let i = 0; i < arr.length; i++) {
 console.log((result));
 
 
+let arr = [2, 5, 9, 15, 1, 4];
+for (i = 0; i < arr.length; i++) {
+    if (arr[i] > 3 && arr[i] < 10) {
+        console.log(arr[i])
+    }
+}
+
+
+let arr = [1, -90, -5, 1, 24, 23];
+result = 0;
+for (i = 0; i <= arr.length; i++) {
+	if (arr[i] >= 0){
+        result += arr[i];
+    }
+}
+console.log(result);
+
+*/
 
