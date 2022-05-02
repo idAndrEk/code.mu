@@ -147,7 +147,6 @@ for (i = 0; i <= arr.length; i++) {
 }
 console.log(result);
 
-*/
 
 let arr = [10, 20, 30, 50, 235, 3000];
 let result = 0;
@@ -156,4 +155,7 @@ for (i = 0; i < arr.length; i++){
         console.log(arr[i]);
     }
 }
+*/
 
+let arr = [10, 20, 30, 50, 235, 3000];
+console.log(arr.reverse());
