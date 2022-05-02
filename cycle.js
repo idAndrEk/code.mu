@@ -110,7 +110,7 @@ let result = 0;
 let arr = [1, 2, 3, 4, 5];
 
 for (let i = 0; i < arr.length; i++) {
-	result += arr[i];
+    result += arr[i];
 }
 
 console.log(result);
@@ -141,7 +141,7 @@ for (i = 0; i < arr.length; i++) {
 let arr = [1, -90, -5, 1, 24, 23];
 result = 0;
 for (i = 0; i <= arr.length; i++) {
-	if (arr[i] >= 0){
+    if (arr[i] >= 0){
         result += arr[i];
     }
 }
@@ -155,7 +155,25 @@ for (i = 0; i < arr.length; i++){
         console.log(arr[i]);
     }
 }
-*/
 
 let arr = [10, 20, 30, 50, 235, 3000];
 console.log(arr.reverse());
+
+let arr = [1, 1, 3, 3, 4, 5];
+for (i = 0; i < arr.length; i++) {
+if (arr[i] == i) {
+    console.log(arr[i]);
+}
+}
+
+let arr = [10, 20, 30, 50, 235, 3000];
+for (i = 0; i <= arr.length - 1; i++) {
+    document.write(arr[i]) + '<br>';
+}
+*/
+
+let arr = ['ПН', 'ВТ', 'СР', 'ЧТ', ' ПТ', 'СБ', 'ВС'];
+for (i = 0; i < arr.length; i++){
+    if ()
+}
+
