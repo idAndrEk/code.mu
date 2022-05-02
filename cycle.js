@@ -170,10 +170,25 @@ let arr = [10, 20, 30, 50, 235, 3000];
 for (i = 0; i <= arr.length - 1; i++) {
     document.write(arr[i]) + '<br>';
 }
-*/
 
 let arr = ['ПН', 'ВТ', 'СР', 'ЧТ', ' ПТ', 'СБ', 'ВС'];
 for (i = 0; i < arr.length; i++){
-    if ()
+    if (arr[i] == 'СБ' && arr[i] == 'ВС') {
+        document.write(arr[i] + '<b>' + ' ');
+    } else {
+        document.write(arr[i] + ' ');
+    }
 }
 
+
+let arr = ['ПН', 'ВТ', 'СР', 'ЧТ', ' ПТ', 'СБ', 'ВС'];
+let day = 0;
+for (i = 0; i <= arr.length; i++) {
+    if (i == day) {
+        document.write('i' + arr[i] + '</i> br />');
+    }
+    else {
+        document.write(arr[i] + 'br />');
+    }
+}
+*/
