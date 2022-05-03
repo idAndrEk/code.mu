@@ -254,7 +254,6 @@ for (i = 0; i <= arr.length; i++) {
     }
 }
 console.log(result);
-*/
 
 let arr = [1, 2, 10, 95, -3, 0, 3, 4, 5];
 let result = 0;
@@ -266,3 +265,36 @@ for (i = 0; i < arr.length; i++) {
 }
 console.log(result);
 
+
+let result = 0;
+for (i = 0; i < 100; i++) {
+    result += i;
+    if (result > 100) {
+        break;
+    }
+}
+console.log(i);
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+for (let elem of arr) {
+    if (elem === 'c') {
+        flag = true;
+        break;
+    }
+}
+if (flag === true) {
+    console.log('OK');
+} else {
+    console.log('NO');
+}
+*/
+
+let num = 21;
+let flag = true;
+for (i = 2; 0 < num; i++) {
+    if (num % i == 0) {
+        flag = false;
+        break;
+    }
+}
+console.log(flag);
