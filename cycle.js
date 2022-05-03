@@ -209,9 +209,23 @@ for (let elem of arr) {
     sum += elem;
 }
 console.log(sum);
-*/
 
 let arr = ['Январь' , 'Февраль' , 'Март' , 'Апрель' , 'Май' , 'Июнь' , 'Июль' , 'Август' , 'Сентябрь' , 'Октябрь' , 'Ноябрь' , 'Декабрь' ];
 for (let elem of arr) {
     console.log(elem);
 }
+*/
+
+let arr = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
+let month = 'Май';
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == month) {
+        result = '<i>'+ month + '</i>'
+        document.write(arr + result + '<br>');
+    }
+}
+
+
+
+
+
