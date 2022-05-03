@@ -214,7 +214,6 @@ let arr = ['Январь' , 'Февраль' , 'Март' , 'Апрель' , 'М
 for (let elem of arr) {
     console.log(elem);
 }
-*/
 
 let arr = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'];
 let month = 'Май';
@@ -225,7 +224,45 @@ for (let i = 0; i < arr.length; i++) {
     }
 }
 
+let obj = {a: 1, b: 2, c: 3, d: 4, e: 5};
+let result = 0;
+for (let sum in obj) {
+    result += obj[sum];
+}
+
+console.log(result);
+
+for (let i = 0, j = 0; i <= 9; i++, j += 2) {
+    console.log(i, j);
+}
 
 
+let arr = [1, 2, 3, 0, 4, 5];
+for (let elem of arr) {
+    if (elem === 0) {
+        console.log('OK');
+        break;
+    }
+}
 
+let arr = [1, 2, 10, 95, -3, 0, 4, 5];
+let result = 0;
+for (i = 0; i <= arr.length; i++) {
+    result += arr[i];
+    if (arr[i + 1] < 0) {
+        break;
+    }
+}
+console.log(result);
+*/
+
+let arr = [1, 2, 10, 95, -3, 0, 3, 4, 5];
+let result = 0;
+for (i = 0; i < arr.length; i++) {
+    if (arr[i] === 3) {
+        result = i;
+        break;
+    }
+}
+console.log(result);
 
