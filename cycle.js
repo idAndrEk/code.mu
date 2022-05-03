@@ -191,4 +191,27 @@ for (i = 0; i <= arr.length; i++) {
         document.write(arr[i] + 'br />');
     }
 }
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let elem of arr) {
+    console.log(elem);
+}
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+for (let elem of arr) {
+    console.log(elem);
+}
+
+let arr = [1, 2, 3, 4, 5];
+let sum = 0;
+for (let elem of arr) {
+    sum += elem;
+}
+console.log(sum);
 */
+
+let arr = ['Январь' , 'Февраль' , 'Март' , 'Апрель' , 'Май' , 'Июнь' , 'Июль' , 'Август' , 'Сентябрь' , 'Октябрь' , 'Ноябрь' , 'Декабрь' ];
+for (let elem of arr) {
+    console.log(elem);
+}
