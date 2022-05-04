@@ -287,7 +287,6 @@ if (flag === true) {
 } else {
     console.log('NO');
 }
-*/
 
 let num = 21;
 let flag = true;
@@ -298,3 +297,23 @@ for (i = 2; 0 < num; i++) {
     }
 }
 console.log(flag);
+
+let num = 21;
+let result = 0;
+while (num <= 1000) {
+    num *= 3;
+    result++
+}
+console.log(result);
+
+*/
+
+
+let num = 21;
+let result = 0;
+for (i = 0; i <= 1000; i++){
+    num *= 3;
+    if (num === 1000) {
+        
+    }
+}
