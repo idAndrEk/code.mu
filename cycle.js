@@ -306,9 +306,6 @@ while (num <= 1000) {
 }
 console.log(result);
 
-*/
-
-
 let num = 21;
 let result = 0;
 for (i = 0; i <= 1000; i++){
@@ -317,3 +314,46 @@ for (i = 0; i <= 1000; i++){
         
     }
 }
+
+let str = '';
+for (i = 0; i < 10; i++) {
+    str += 0;
+}
+console.log(str);
+
+let str = '';
+for (i = 1; i <= 9; i++) {
+    str = str + i;
+}
+
+console.log(str);
+
+
+let str = '';
+for (i = 9; i >= 1; i--) {
+    str = str + i;
+}
+console.log(str);
+
+let str = '';
+for (i = 1; i <= 9; i++) {
+    str += i + '-';
+}
+console.log('-' + str);
+
+for (i = 10; i <= 1000; i++) {
+    let str = String(i);
+    if (Number(str[0]) + Number(str[1]) == 5) {
+        console.log(i);
+    }
+}
+
+*/
+
+let result = '';
+for (i = 1; i <= 30; i++) {
+    result = result + i;
+}
+console.log(result);
+
+
